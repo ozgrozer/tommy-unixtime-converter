@@ -1,12 +1,12 @@
 {
   "name": "tommy-unixtime-converter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "author": "Ozgur <ozgr@live.com>",
   "repository": "https://github.com/ozgrozer/tommy-unixtime-converter.git",
   "scripts": {
-    "dev": "parcel ./src/app.html --out-dir ./dist --public-url / --port 1234",
-    "build": "parcel build ./src/app.html --out-dir ./build --public-url ./ --no-source-maps"
+    "dev": "parcel ./src/index.html --out-dir ./dist --public-url / --port 1234",
+    "build": "parcel build ./src/index.html --out-dir ./docs --public-url ./ --no-source-maps"
   },
   "dependencies": {
     "babel-core": "^6.26.3",
