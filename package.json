@@ -6,7 +6,7 @@
   "repository": "https://github.com/ozgrozer/tommy-unixtime-converter.git",
   "scripts": {
     "dev": "parcel ./src/app.html --out-dir ./dist --public-url / --port 1234",
-    "build": "parcel build ./src/app.html --out-dir ./dist --public-url / --no-source-maps"
+    "build": "parcel build ./src/app.html --out-dir ./build --public-url / --no-source-maps"
   },
   "dependencies": {
     "babel-core": "^6.26.3",
