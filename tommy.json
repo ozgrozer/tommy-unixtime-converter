@@ -1,5 +1,5 @@
 {
   "width": 600,
   "height": 400,
-  "main": "./src/app.html"
+  "main": "./dist/app.html"
 }
